@@ -51,10 +51,16 @@ const Layout = ({ children }) => {
             <main className="p-4">{children}</main>
             <footer className="text-center">
               <hr/>
-              <p className="d-inline">© {new Date().getFullYear()} <a className="text-info" href="https://willjw3.github.io/">willjw3</a>, All Rights Reserved.</p>
-              <p className="mt-5 text-muted d-inline"><i> Built with
-                            {` `}
-                <a className="text-info" href="https://www.gatsbyjs.org">Gatsby</a></i>
+              <p className="d-inline">© {new Date().getFullYear()} <a className="text-info" href="https://twitter.com/nawarian/">nawarian</a>, All Rights Reserved.</p>
+              <p className="mt-5 text-muted d-inline">
+                <i>
+                    {` `}Built with{` `}
+                    <a className="text-info" href="https://www.gatsbyjs.org">Gatsby</a>
+                    {` `}using{` `}
+                    <a className="text-info" href="https://www.gatsbyjs.com/starters/willjw3/gatsby-starter-developer-diary">
+                      Will Ward's starter template
+                    </a>
+                </i>.
               </p>
             </footer>
           </div>
